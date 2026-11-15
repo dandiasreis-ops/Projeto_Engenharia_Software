@@ -15,3 +15,10 @@ Marcador de teste: `TESTE-M6-M2-20261115`
 - O commit não altera funcionalidades, dependências ou variáveis de ambiente.
 - Caso a sincronização apresente HTTP 403, verificar a permissão de acesso ao GitHub e o limite da API com a equipe do Módulo 2.
 - O teste NÃO comprova sozinho a integração entre os módulos.
+
+## Teste do webhook com push real — 15/11/2026
+
+- Marcador: `TESTE-WEBHOOK-PUSH-M2-20261115`
+- Objetivo: disparar um evento GitHub `push` na branch `main` após configurar o webhook do Módulo 2.
+- Validação pendente: confirmar no monitor do Módulo 2 se a entrega foi processada e se o commit entrou na indexação.
+- Nenhum arquivo de código ou configuração foi modificado neste teste.
